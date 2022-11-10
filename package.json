@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/AlenBiz/HW9-Module#readme",
   "devDependencies": {
+    "babel-plugin-istanbul": "^6.1.1",
     "jest": "^29.3.0"
   }
 }
