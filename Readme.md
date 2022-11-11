@@ -17,14 +17,14 @@
 ---
 ## Coverage
 - **Шаг 9:** По [ссылке](https://www.npmjs.com/package/babel-plugin-istanbul) скачиваем плагин для оценки покрытия кода
-- **Шаг 10:** Устанавливаем плагин в терминале командой ```npm install --save-dev babel-plugin-istanbul``` и проверяем в файле package.json появление новой зависимости ![Картинка]([url=https://postimg.cc/23T823y2][img]https://i.postimg.cc/23T823y2/2022-11-11-7.png[/img][/url])
+- **Шаг 10:** Устанавливаем плагин в терминале командой ```npm install --save-dev babel-plugin-istanbul``` и проверяем в файле package.json появление новой зависимости ![Картинка](https://i.postimg.cc/yYCg6ZH4/2022-11-11-7.png)
 - **Шаг 10:** Запускаем проверку покрытия командой ```npx jest --coverage```
 - **Шаг 11:** Получаем в терминале результат проверки
-![Картинка]([url=https://postimg.cc/TK5dd994][img]https://i.postimg.cc/TK5dd994/2022-11-10-4.png[/img][/url])
+![Картинка](https://i.postimg.cc/4xBm12hs/2022-11-10-4.png)
 - **Шаг 12:** Откроем подробный отчет в браузере
-![Картинка]([url=https://postimg.cc/bsJYM828][img]https://i.postimg.cc/bsJYM828/2022-11-11-4.png[/img][/url])
+![Картинка](https://i.postimg.cc/FsbfYHrf/2022-11-11-4.png)
 - **Шаг 13:** Рассмотрим подробный отчет 
 >Покрытие ```100% Functions 1/1``` - в коде одна функция и она проверена
 >Покрытие ```100% Branches 2/2``` - в функции условие на ИЛИ -это образовывает две ветки
 >Покрытие ```100% Lines 5/5``` - весь код из 5 строк -линий 
-![Картинка]([url=https://postimg.cc/N5zGvV1X][img]https://i.postimg.cc/N5zGvV1X/2022-11-11-2.png[/img][/url])
+![Картинка](https://i.postimg.cc/52xXLWys/2022-11-11-2.png)
